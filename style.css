@@ -1,0 +1,86 @@
+body {
+    background-color: grey;
+}
+
+.container {
+    margin: 5% 5%;
+    background-color: white;
+    padding: 3%;
+}
+.navbar-brand {
+    background-color: #4aaaa5;
+
+}
+.navbar-nav {
+    float: right;
+}
+.bg {
+    color: #4aaaa5;
+    padding: 2%;
+}
+h1 {
+    margin-bottom: 8px;
+    color: #4aaaa5;
+    border-bottom: #4aaaa5 solid 1px;
+
+}
+
+.selfie {
+    height: 200px;
+    width: 150px;
+    float: left;
+    margin-right: 8px;
+}
+.portfolio {
+    height: 300px;
+    width: 250px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.banner {
+    clear: both;
+    position: absolute;
+    bottom: 15px;
+    left: 0px;
+    color: white;
+    background-color: #4aaaa5;
+    padding: 10px 16.5px;
+    margin-left: 5px;
+}
+@media screen and (max-width: 768px) {
+    .portfolio {
+    height: 200px;
+    width: 150px;
+    position: relative;
+    margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .portfolio {
+        height: 200px;
+        width: 200px;
+        position: relative;
+
+    }
+    .selfie { 
+        margin: auto 30%;
+        margin-bottom: 8px;
+        height: 400px;
+        width: 300px;
+    }
+    .container {
+        clear: both;
+        text-align: center;
+    }
+    .banner {
+        clear: both;
+        position: absolute;
+        bottom: 15px;
+        left: 75px;
+        color: white;
+        background-color: #4aaaa5;
+        padding: 10px 16.5px;
+        margin-left: 5px;
+        text-align: center;
+    }
+}
