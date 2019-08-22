@@ -8,20 +8,20 @@ body {
     padding: 3%;
 }
 .navbar-brand {
-    background-color: #4aaaa5;
+    background-color: red;
 
 }
 .navbar-nav {
     float: right;
 }
 .bg {
-    color: #4aaaa5;
+    color: black;
     padding: 2%;
 }
 h1 {
     margin-bottom: 8px;
-    color: #4aaaa5;
-    border-bottom: #4aaaa5 solid 1px;
+    color: red;
+    border-bottom: red solid 1px;
 
 }
 
@@ -31,9 +31,9 @@ h1 {
     float: left;
     margin-right: 8px;
 }
-.portfolio {
+.portfolioImage {
     height: 300px;
-    width: 250px;
+    width: 450px;
     position: relative;
     margin-bottom: 20px;
 }
@@ -42,8 +42,8 @@ h1 {
     position: absolute;
     bottom: 15px;
     left: 0px;
-    color: white;
-    background-color: #4aaaa5;
+    color: red;
+    background-color: black;
     padding: 10px 16.5px;
     margin-left: 5px;
 }
@@ -78,7 +78,7 @@ h1 {
         bottom: 15px;
         left: 75px;
         color: white;
-        background-color: #4aaaa5;
+        background-color: lightgray;
         padding: 10px 16.5px;
         margin-left: 5px;
         text-align: center;
